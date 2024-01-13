@@ -112,6 +112,15 @@ header img {
 }
 
 /* feature-narration styles */
+.rectangle {
+    background-color: #FF900E;
+    width: 5px;
+    height: 106px;
+    position:relative;
+    top: 105px;
+    right:25px
+}
+
 .feature-narration-heading {
     padding-bottom: 20px;
 }
@@ -294,7 +303,9 @@ footer p {
     footer p {
         padding-bottom: 30px;
     }
-
+    .rectangle{
+        right: 7px;
+    }
 }
 
 
@@ -331,6 +342,7 @@ footer p {
     .sponsors-images img {
         padding-top: 30px;
     }
+
     .qualification {
         margin-left: -340px;
         margin-top: 10px;
