@@ -112,7 +112,7 @@ header img {
 }
 
 /* feature-narration styles */
-.feature-narration-heading{
+.feature-narration-heading {
     padding-bottom: 20px;
 }
 
@@ -120,7 +120,7 @@ header img {
     color: #131313;
     font-size: 20px;
     font-weight: 600;
-    padding:30px 0px 10px 20px;
+    padding: 30px 0px 10px 20px;
 }
 
 .card-paragraph {
@@ -175,19 +175,21 @@ header img {
 
 /* Facts-section style */
 
-.facts-heading{
+.facts-heading {
     padding-bottom: 20px;
 }
-.fact-types{
+
+.fact-types {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
 }
-.facts-details{
+
+.facts-details {
     border: 1px solid #FF900E;
     border-radius: 8px;
     text-align: center;
-    padding:20px;
+    padding: 20px;
 }
 
 
@@ -216,46 +218,72 @@ header img {
 @media screen and (max-width:675px) {
 
     nav,
-    .features, .feature-narration {
+    .features,
+    .feature-narration {
         flex-direction: column;
     }
-    .feature-narration{
-        gap:15px;
+
+    .feature-narration {
+        gap: 15px;
     }
 
     .team-images {
         grid-template-columns: 1fr;
     }
 
-    .feature-narration img{
-            width: 100%;
+    .feature-narration img {
+        width: 100%;
     }
+
     .features-heading,
     .features-paragraph {
         width: 360px;
     }
+
     .card {
         width: 330px;
         height: 200px;
     }
-    .card-paragraph{
+
+    .card-paragraph {
         width: 300px;
     }
-    
+
+    .fact-types {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .facts-section {
+        margin-top: 60px;
+    }
+
+   
 }
 
 @media screen and (min-width:675px) and (max-width:960px) {
-    .features, .feature-narration {
+
+    .features,
+    .feature-narration {
         flex-direction: column;
     }
 
     .features-texts {
         padding-top: 50px;
     }
-.feature-narration-image{
+
+    .feature-narration-image {
         width: auto;
     }
-    .feature-narration-image img{
-        width:100%;
+
+    .feature-narration-image img {
+        width: 100%;
+    }
+
+    .facts-section {
+        margin-top: 50px;
+    }
+     .facts-details {
+        margin-top: -45px;
     }
 }
