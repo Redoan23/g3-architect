@@ -1,0 +1,86 @@
+/* Common shared styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.paragraph-style {
+    color: var(--Dark-03, #727272);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.heading-text-style {
+    color: #131313;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Nav and header related styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #424242;
+    padding-left: 20px;
+}
+
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+}
+
+header img {
+    width: 100%;
+}
+.banner-heading {
+    font-size: 4rem;
+    padding-bottom: 30px;
+}
+.banner-texts{
+    text-align: center;
+    padding-bottom: 35px;
+}
+.banner-description{
+    width: 868;
+    padding-bottom: 30px;
+}
+
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    border:0;
+    color:white;
+    font-size: 1.25rem;
+    font-weight: 600px;
+
+}
+
+@media screen and (max-width:675px){
+    nav{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:675px) and (max-width:960px) {
+    
+}
