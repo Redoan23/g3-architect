@@ -118,7 +118,15 @@ header img {
     height: 106px;
     position:relative;
     top: 105px;
-    right:25px
+    right:25px;
+    transition: width .7s ease-in-out;
+}
+
+.rectangle:hover {
+    width:25px;
+    background-color:tan;
+    
+
 }
 
 .feature-narration-heading {
